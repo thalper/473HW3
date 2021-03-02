@@ -54,7 +54,10 @@ class Gaussian_Naive_Bayes():
         # BEGIN_YOUR_CODE
         # Calculate mean of input x
         
-        pass;
+        total = 0
+        for i in x:
+            total += i
+        mean = total / len(x)
     
         # END_YOUR_CODE
         ############################################################
